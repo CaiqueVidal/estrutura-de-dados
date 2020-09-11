@@ -9,6 +9,11 @@ public class Book {
 	
 	public Book() {
 	}
+	
+	public Book(String title, int quantity) {
+		this.title = title;
+		this.quantity = quantity;
+	}
 
 	public String getTitle() {
 		return title;

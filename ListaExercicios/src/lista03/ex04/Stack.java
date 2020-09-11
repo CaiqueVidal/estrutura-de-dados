@@ -12,8 +12,8 @@ public class Stack {
 	private Object stack[];
 	private int size;
 	
-	public Stack(int size) {
-		stack = new Object[size];
+	public Stack(int capacity) {
+		stack = new Object[capacity];
 		this.size = 0;
 	}
 	

@@ -15,8 +15,8 @@ public class Queue {
 	public Queue() {
 	}
 	
-	public Queue(int size) {
-		queue = new Object[size];
+	public Queue(int capacity) {
+		queue = new Object[capacity];
 		this.size = 0;
 	}
 	

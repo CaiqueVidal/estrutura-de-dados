@@ -12,12 +12,10 @@ public class Main {
 		Queue queue = new Queue(15);
 		Stack stack = new Stack(15);
 		
-		String title[] = {"Java", "C", "PHP", "CSS", "HTML", "JavaScript", "C++", "Assembly", "UML", "C#", "Python", "Cobol", "Kotlin", "Ruby", "Swift"};
+		String title[] = {"Java", "C", "PHP", "CSS", "HTML", "JavaScript", "C++", "Assembly", "UML", "C#", "Python", "Cobol", "Kotlin", "Ruby", "Flutter"};
 		
 		for (int i = 0; i < title.length; i++) {
-			Book book = new Book();
-			book.setTitle(title[i]);
-			book.setQuantity(i);
+			Book book = new Book(title[i], i);
 			queue.enqueue(book);
 		}
 
