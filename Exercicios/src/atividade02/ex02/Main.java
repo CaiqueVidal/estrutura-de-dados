@@ -2,12 +2,12 @@ package atividade02.ex02;
 
 import javax.swing.JOptionPane;
 
-import atividade02.LinkedList;
+import atividade02.RecursiveLinkedList;
 
 public class Main {
 	
 	public static void main(String[] args) {
-		LinkedList<Double> temperatureList = new LinkedList<>();
+		RecursiveLinkedList<Double> temperatureList = new RecursiveLinkedList<>();
 		int opc = 0;
 		
 //		Simulações
